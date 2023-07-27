@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Footer() {
   return (
     <div className="bg-[#000009] py-[1rem] mt-[5rem] flex flex-row-reverse px-[16px] justify-between items-center">
@@ -105,9 +107,11 @@ export function Footer() {
         <h3 className="text-3xl text-[#d9d9d9] mt-[2rem] subheading">
           For Enquires :
         </h3>
-        <button className="bg-[#ffd200] w-[45vw] md:w-[20vw] py-[8px] rounded-[20px] text-[2.5vh] mt-[16px] font-semibold">
-          Contact Us
-        </button>
+        <Link to="/contact">
+          <button className="bg-[#ffd200] w-[45vw] md:w-[20vw] py-[8px] rounded-[20px] text-[2.5vh] mt-[16px] font-semibold">
+            Contact Us
+          </button>
+        </Link>
       </div>
     </div>
   );

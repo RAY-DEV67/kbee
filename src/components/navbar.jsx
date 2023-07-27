@@ -146,7 +146,7 @@ export function Navbar() {
             }
           ></div>
           <p
-            className="absolute headingfont top-7 nav text-[5vw] left-[85%]"
+            className="absolute headingfont text-[#ffd200] top-7 nav text-[5vw] left-[85%]"
             onClick={() => {
               setshowMobile(false);
             }}
@@ -160,7 +160,7 @@ export function Navbar() {
               setshowMobile(false);
             }}
           >
-            <p className="text-[6vw] text-[#D3D3D3] headingfont font-bold">
+            <p className="text-[6vw] text-[#ffd200] headingfont font-bold">
               Home
             </p>
           </Link>
@@ -171,7 +171,7 @@ export function Navbar() {
               setshowMobile(false);
             }}
           >
-            <p className="text-[6vw] text-[#D3D3D3] my-[1rem] headingfont font-bold">
+            <p className="text-[6vw] text-[#ffd200] my-[1rem] headingfont font-bold">
               About
             </p>
           </a>
@@ -182,7 +182,7 @@ export function Navbar() {
               setshowMobile(false);
             }}
           >
-            <p className="text-[6vw] text-[#D3D3D3] my-[1rem] headingfont font-bold">
+            <p className="text-[6vw] text-[#ffd200] my-[1rem] headingfont font-bold">
               Clients
             </p>
           </a>
@@ -193,7 +193,7 @@ export function Navbar() {
               setshowMobile(false);
             }}
           >
-            <p className="text-[6vw] text-[#D3D3D3] my-[1rem] headingfont font-bold">
+            <p className="text-[6vw] text-[#ffd200] my-[1rem] headingfont font-bold">
               New Music Friday
             </p>
           </a>
@@ -204,7 +204,7 @@ export function Navbar() {
               setshowMobile(false);
             }}
           >
-            <p className="text-[6vw] text-[#D3D3D3] headingfont font-bold">
+            <p className="text-[6vw] text-[#ffd200] headingfont font-bold">
               Contact
             </p>
           </Link>
