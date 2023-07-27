@@ -217,7 +217,7 @@ export function LandingPage() {
             </h2>
             <AnimatedDiv>
               <div className="flex flex-row justify-center">
-                <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+                <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                   {" "}
                   KBEE Promoworld is a Brand Promotion and Media communication
                   Company that offers a range of quality solutions towards
@@ -234,7 +234,7 @@ export function LandingPage() {
             </h2>
             <AnimatedDiv>
               <div className="flex flex-row justify-center">
-                <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+                <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                   {" "}
                   KBEE Promo World is a full- Service Promotions Agency that
                   offers Strategic Marketing support, Creative development and
@@ -256,23 +256,23 @@ export function LandingPage() {
           </h2>
           <AnimatedDiv>
             <div className="flex flex-col justify-center items-center">
-              <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+              <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                 • Promoting songs Online (Songs & Videos on Any sites/Blogs).
               </p>
-              <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+              <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                 • Radio and TV, Billboard Sponsor Ads for Events
               </p>
-              <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+              <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                 • Itunes, Spotify, Music Plus, etc. (Sell your Music and get
                 paid)
               </p>
-              <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+              <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                 • Facebook &Instagram Ads.
               </p>
-              <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+              <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                 • Burst YouTube views, likes, comments. • Twitter Trend.
               </p>
-              <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+              <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                 • Online DJ Mix.
               </p>
             </div>
@@ -286,7 +286,7 @@ export function LandingPage() {
 
           <AnimatedDiv>
             <div className="flex flex-row justify-center">
-              <p className="text-[3vw] lg:text-[1.5vw] w-[90%] text-center">
+              <p className="text-[3.5vw] lg:text-[1.5vw] w-[90%] text-center">
                 KBEE Promoworld through its hard work and immeasurable efforts
                 aided the promotion of Timaya's COLD OUTSIDE, ,TJAN's ADUKE,
                 Ycee's JUICE, Chike's EGO OYIBO, Diamond Platinumz's MY BABY,
