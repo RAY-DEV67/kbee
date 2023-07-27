@@ -34,7 +34,7 @@ export function Navbar() {
         className={`flex justify-between z-50 px-[1rem] fixed items-center w-[100vw] pt-[1vh] ${
           scrolled
             ? "bg-[#ffffff] navbar mb-[2rem]"
-            : "lg:bg-white bg-transparent"
+            : "bg-white bg-transparent"
         }`}
       >
         <img

@@ -1,9 +1,5 @@
-// IMPORT FIRESTRORE //////////////////////////////////
-import db from "../config/firebase";
-import { addDoc, collection } from "firebase/firestore";
 import { Link } from "react-router-dom";
-import { useState, useContext, useEffect, useRef } from "react";
-import { Theme } from "../App";
+import { useState, useEffect, useRef } from "react";
 import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
@@ -20,14 +16,6 @@ import empire from "../assets/empire.jpg";
 import onerpm from "../assets/onerpm.png";
 import universal from "../assets/universal.jpg";
 import warner from "../assets/warner.jpg";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
 import { Footer } from "../components/footer";
 
 const AnimatedDiv = ({ children }) => {
@@ -68,28 +56,6 @@ const AnimatedDiv = ({ children }) => {
 };
 
 export function LandingPage() {
-  const theme = useContext(Theme);
-  const [email, setemail] = useState("");
-  const [loading, setloading] = useState(false);
-  const [welcome, setwelcome] = useState(false);
-
-  const upload = async () => {
-    setloading(true);
-    await addDoc(collection(db, "Email"), {
-      Email: email,
-    });
-    setloading(false);
-  };
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    upload();
-    setwelcome(true);
-    setTimeout(() => {
-      setwelcome(false);
-    }, 4000);
-  };
-
   return (
     <div className="bg-[#ffffff] text-[#000009]">
       <div className="relative">
@@ -109,14 +75,6 @@ export function LandingPage() {
           <h1 className="text-[4vw] relative z-50 text-white flex flex-row gap-x-3 items-center">
             WELCOME TO{" "}
             <span className="text-[#ffd200] text-[7vw] mt-[-2h] font-semibold">
-              {" "}
-              KBEE{" "}
-            </span>{" "}
-            PROMOTIONS
-          </h1>
-          <h1 className="text-[4vw] mt-[-5.5vw] relative z-50 text-transparent flex flex-row gap-x-3 items-center">
-            WELCOME TO{" "}
-            <span className="text-[#ffd200] text-[7vw] mt-[-1h] font-semibold">
               {" "}
               KBEE{" "}
             </span>{" "}
