@@ -4,8 +4,8 @@ import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
-import nmf from "../assets/nmf.jpg";
-import nmfv from "../assets/nmfv.mp4";
+import nmf from "../assets/nmf2.jpg";
+import nmfv from "../assets/nmfv.jpg";
 import timaya from "../assets/timaya.webp";
 import majeed from "../assets/majeed.webp";
 import mohbad from "../assets/Mohbad.jpg";
@@ -394,15 +394,8 @@ export function LandingPage() {
         </h2>
         <div className="lg:flex lg:flex-row gap-3 mt-[16px] justify-center items-center">
           <img src={nmf} alt="New Music Friday" className="lg:w-[45vw]" />
-          <video
-            autoPlay
-            muted
-            playsInline
-            loop
-            className="lg:w-[45vw] mt-[16px] lg:mt-[0px]"
-          >
-            <source src={nmfv} type="video/mp4" />
-          </video>
+          <img src={nmfv} alt="New Music Friday" className="lg:w-[42vw] mt-[16px] w-[80vw]" />
+      
         </div>
       </div>
 
