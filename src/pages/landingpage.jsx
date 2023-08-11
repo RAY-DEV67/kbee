@@ -5,7 +5,7 @@ import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
 import nmf from "../assets/nmf2.jpg";
-import nmfv from "../assets/nmfv (2).mp4";
+import nmfv from "../assets/Video.mp4";
 import timaya from "../assets/timaya.webp";
 import majeed from "../assets/majeed.webp";
 import mohbad from "../assets/Mohbad.jpg";
