@@ -4,8 +4,13 @@ import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
-import nmf from "../assets/nmf2.jpg";
-import nmfv from "../assets/Video.mp4";
+import nmfv from "../assets/Video (1).mp4";
+import LP1 from "../assets/Video_1.mp4";
+import LP2 from "../assets/Video_2.mp4";
+import LP3 from "../assets/Video_3.mp4";
+import LP4 from "../assets/Video_4.mp4";
+import LP5 from "../assets/Video_5.mp4";
+import LP6 from "../assets/Video_6.mp4";
 import timaya from "../assets/timaya.webp";
 import majeed from "../assets/majeed.webp";
 import mohbad from "../assets/Mohbad.jpg";
@@ -382,6 +387,77 @@ export function LandingPage() {
           <img src={onerpm} alt="One Rpm" className="w-[20vw]" />
           <img src={universal} alt="Universal" className="w-[20vw]" />
           <img src={warner} alt="Warner Music" className="w-[30vw]" />
+        </div>
+      </div>
+
+      <div
+        id="newMusicFriday"
+        className="mx-[16px] flex flex-col items-center justify-center"
+      >
+        <h2 className="flex flex-row gap-3 lg:text-[2.5vw] text-[5vw] mt-[16px] justify-center font-semibold">
+          LATEST<p className="text-[#ffd200]">PROJECTS</p>
+        </h2>
+        <div className="flex flex-row gap-x-3 items-center w-[100vw] justify-center lg:flex lg:flex-row mt-[16px]">
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[45vw] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP1} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP2} type="video/mp4" />
+          </video>
+        </div>
+
+        <div className="flex flex-row gap-x-3 items-center w-[100vw] justify-center lg:flex lg:flex-row mt-[16px]">
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP3} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP4} type="video/mp4" />
+          </video>
+        </div>
+
+        <div className="flex flex-row gap-x-3 items-center w-[100vw] justify-center lg:flex lg:flex-row mt-[16px]">
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP5} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] top-0 "
+          >
+            <source src={LP6} type="video/mp4" className="w-[500px]"/>
+          </video>
         </div>
       </div>
 
