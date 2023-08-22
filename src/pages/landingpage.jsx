@@ -394,16 +394,16 @@ export function LandingPage() {
         id="newMusicFriday"
         className="mx-[16px] flex flex-col items-center justify-center"
       >
-        <h2 className="flex flex-row gap-3 lg:text-[2.5vw] text-[5vw] mt-[16px] justify-center font-semibold">
+        <h2 className="flex flex-row gap-3 lg:text-[2.5vw] text-[5vw] my-[16px] justify-center font-semibold">
           LATEST<p className="text-[#ffd200]">PROJECTS</p>
         </h2>
-        <div className="flex flex-row gap-x-3 items-center w-[100vw] justify-center lg:flex lg:flex-row mt-[16px]">
+        <div className="flex flex-col justify-center items-center gap-y-3 lg:flex-row lg:flex-wrap ">
           <video
             autoPlay
             muted
             playsInline
             loop
-            className="w-[45vw] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
             <source src={LP1} type="video/mp4" />
           </video>
@@ -412,19 +412,16 @@ export function LandingPage() {
             muted
             playsInline
             loop
-            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
             <source src={LP2} type="video/mp4" />
           </video>
-        </div>
-
-        <div className="flex flex-row gap-x-3 items-center w-[100vw] justify-center lg:flex lg:flex-row mt-[16px]">
           <video
             autoPlay
             muted
             playsInline
             loop
-            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
             <source src={LP3} type="video/mp4" />
           </video>
@@ -433,19 +430,16 @@ export function LandingPage() {
             muted
             playsInline
             loop
-            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
             <source src={LP4} type="video/mp4" />
           </video>
-        </div>
-
-        <div className="flex flex-row gap-x-3 items-center w-[100vw] justify-center lg:flex lg:flex-row mt-[16px]">
           <video
             autoPlay
             muted
             playsInline
             loop
-            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] bg-[white] top-0 "
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
             <source src={LP5} type="video/mp4" />
           </video>
@@ -454,18 +448,23 @@ export function LandingPage() {
             muted
             playsInline
             loop
-            className="w-[45vw] h-[250px] lg:w-[50vw] lg:h-[500px] top-0 "
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] top-0 "
           >
-            <source src={LP6} type="video/mp4" className="w-[500px]"/>
+            <source src={LP6} type="video/mp4" className="w-[500px]" />
           </video>
         </div>
+        <Link to="/LatestProjects">
+            <button className="bg-[#ffd200] lg:w-[20vw] w-[45vw] py-[8px] rounded-[20px] text-[2.5vh] mt-[16px] font-semibold">
+              See More
+            </button>
+          </Link>
       </div>
 
       <div
         id="newMusicFriday"
         className="mx-[16px] flex flex-col items-center justify-center"
       >
-        <h2 className="flex flex-row gap-3 lg:text-[2.5vw] text-[5vw] mt-[16px] justify-center font-semibold">
+        <h2 className="flex flex-row gap-3 lg:text-[2.5vw] text-[5vw] mb-[16px] mt-[32px] justify-center font-semibold">
           NEW MUSIC<p className="text-[#ffd200]">FRIDAY</p>
         </h2>
         <div className="lg:flex lg:flex-row gap-3 mt-[16px] justify-center items-center">

@@ -6,6 +6,7 @@ import { LandingPage } from "./pages/landingpage";
 import { ScrollToTop } from "./components/scrolltotop";
 import { useState } from "react";
 import { Contact } from "./pages/contact";
+import LatestProjects from "./pages/latestProjects";
 
 
 export const Theme = React.createContext();
@@ -32,6 +33,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/Contact" element={<Contact />} />
+                <Route path="/LatestProjects" element={<LatestProjects />} />
               </Routes>
             </ScrollToTop>
           </Router>
