@@ -10,6 +10,9 @@ import LP9 from "../assets/Video_9.mp4";
 import LP10 from "../assets/Video_10.mp4";
 import LP11 from "../assets/Video_11.mp4";
 import LP12 from "../assets/Video12.mp4";
+import LP13 from "../assets/Video_1 (1).mp4";
+import LP14 from "../assets/Video_2 (1).mp4";
+import LP15 from "../assets/Video_3 (1).mp4";
 import { Footer } from "../components/footer";
 
 function LatestProjects() {
@@ -40,6 +43,33 @@ function LatestProjects() {
             className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
             <source src={LP8} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP14} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP13} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP15} type="video/mp4" />
           </video>
           <video
             autoPlay
