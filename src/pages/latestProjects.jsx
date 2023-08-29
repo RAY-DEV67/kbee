@@ -13,6 +13,7 @@ import LP12 from "../assets/Video12.mp4";
 import LP13 from "../assets/Video_1 (1).mp4";
 import LP14 from "../assets/Video_2 (1).mp4";
 import LP15 from "../assets/Video_3 (1).mp4";
+import LP16 from "../assets/newProject.mp4";
 import { Footer } from "../components/footer";
 
 function LatestProjects() {
@@ -26,6 +27,15 @@ function LatestProjects() {
           All LATEST<p className="text-[#ffd200]">PROJECTS</p>
         </h2>
         <div className="flex flex-col justify-center items-center gap-y-3 lg:flex-row lg:flex-wrap ">
+        <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP16} type="video/mp4" />
+          </video>
           <video
             autoPlay
             muted
