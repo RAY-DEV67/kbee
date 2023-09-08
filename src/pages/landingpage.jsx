@@ -4,7 +4,7 @@ import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
-import nmfv from "../assets/Video (2).mp4";
+import nmfv from "../assets/nmf9.mp4";
 import LP1 from "../assets/Video_1.mp4";
 import LP2 from "../assets/Video_2.mp4";
 import LP3 from "../assets/Video_3.mp4";
