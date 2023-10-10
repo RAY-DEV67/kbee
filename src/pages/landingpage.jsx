@@ -4,7 +4,7 @@ import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
-import nmfv from "../assets/video1.mp4";
+import nmfv from "../assets/nmfOct1.mp4";
 import LP1 from "../assets/Video2.mp4";
 import LP2 from "../assets/Video3.mp4";
 import LP3 from "../assets/Video_3.mp4";
@@ -72,7 +72,7 @@ export function LandingPage() {
           className="w-[100vw] lg:hidden bg-[white] top-0 "
         >
           <source
-            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1690442699/kbee/164367753_671352078200615_9120271567644228323_n_1_1_btzagp.mp4"
+            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1696921634/kbee/Video_3_nrcdiy.mp4"
             type="video/mp4"
           />
         </video>
