@@ -117,7 +117,7 @@ export function LandingPage() {
           className="w-[100vw] h-[100vh] hidden lg:block bg-[white] top-0 "
         >
           <source
-            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1690442699/kbee/164367753_671352078200615_9120271567644228323_n_1_1_btzagp.mp4"
+            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1696921634/kbee/Video_3_nrcdiy.mp4"
             type="video/mp4"
             className="h-[100vh]"
           />
@@ -130,7 +130,7 @@ export function LandingPage() {
           className="w-[100vw] h-[100vh] hidden lg:block bg-[white] top-0 "
         >
           <source
-            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1690442699/kbee/164367753_671352078200615_9120271567644228323_n_1_1_btzagp.mp4"
+            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1696921634/kbee/Video_3_nrcdiy.mp4"
             type="video/mp4"
             className="h-[100vh]"
           />
