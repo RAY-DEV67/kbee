@@ -4,7 +4,7 @@ import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
-import nmfv from "../assets/nmfOct1.mp4";
+import nmfv from "../assets/Video1.mp4";
 import LP1 from "../assets/Video2.mp4";
 import LP2 from "../assets/Video3.mp4";
 import LP3 from "../assets/Video_3.mp4";
@@ -454,10 +454,10 @@ export function LandingPage() {
           </video>
         </div>
         <Link to="/LatestProjects">
-            <button className="bg-[#ffd200] lg:w-[20vw] w-[45vw] py-[8px] rounded-[20px] text-[2.5vh] mt-[16px] font-semibold">
-              See More
-            </button>
-          </Link>
+          <button className="bg-[#ffd200] lg:w-[20vw] w-[45vw] py-[8px] rounded-[20px] text-[2.5vh] mt-[16px] font-semibold">
+            See More
+          </button>
+        </Link>
       </div>
 
       <div
