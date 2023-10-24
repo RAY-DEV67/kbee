@@ -6,7 +6,7 @@ import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
 import nmfv from "../assets/nmfL.mp4";
 import LP1 from "../assets/orezi.mp4";
-import LP2 from "../assets/Video3.mp4";
+import LP2 from "../assets/lyricVideo.mp4";
 import LP3 from "../assets/Video_3.mp4";
 import LP4 from "../assets/Video_4.mp4";
 import LP5 from "../assets/Video_5.mp4";
@@ -72,7 +72,7 @@ export function LandingPage() {
           className="w-[100vw] lg:hidden bg-[white] top-0 "
         >
           <source
-            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1696921634/kbee/Video_3_nrcdiy.mp4"
+            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1698156673/kbee/Video_1_i9ytx8.mp4"
             type="video/mp4"
           />
         </video>
@@ -85,11 +85,11 @@ export function LandingPage() {
             </span>{" "}
             PROMOTIONS
           </h1>
-          <Link to="/contact">
+          {/* <Link to="/contact">
             <button className="bg-[#ffd200] w-[45vw] py-[8px] rounded-[20px] text-[2.5vh] mt-[16px] font-semibold">
               Contact Us
             </button>
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -117,7 +117,7 @@ export function LandingPage() {
           className="w-[100vw] h-[100vh] hidden lg:block bg-[white] top-0 "
         >
           <source
-            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1696921634/kbee/Video_3_nrcdiy.mp4"
+            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1698156673/kbee/Video_1_i9ytx8.mp4"
             type="video/mp4"
             className="h-[100vh]"
           />
@@ -130,7 +130,7 @@ export function LandingPage() {
           className="w-[100vw] h-[100vh] hidden lg:block bg-[white] top-0 "
         >
           <source
-            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1696921634/kbee/Video_3_nrcdiy.mp4"
+            src="https://res.cloudinary.com/dvl38skbc/video/upload/v1698156673/kbee/Video_1_i9ytx8.mp4"
             type="video/mp4"
             className="h-[100vh]"
           />
@@ -405,7 +405,7 @@ export function LandingPage() {
             loop
             className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
-            <source src={LP1} type="video/mp4" />
+            <source src={LP2} type="video/mp4" />
           </video>
           <video
             autoPlay
@@ -414,7 +414,7 @@ export function LandingPage() {
             loop
             className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
-            <source src={LP2} type="video/mp4" />
+            <source src={LP1} type="video/mp4" />
           </video>
           <video
             autoPlay
