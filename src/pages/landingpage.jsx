@@ -4,13 +4,13 @@ import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
-import nmfv from "../assets/nmfL.mp4";
+import nmfv from "../assets/nmf.mp4";
 import LP1 from "../assets/orezi.mp4";
 import LP2 from "../assets/lyricVideo.mp4";
 import LP3 from "../assets/Video_3.mp4";
-import LP4 from "../assets/Video_4.mp4";
-import LP5 from "../assets/Video_5.mp4";
-import LP6 from "../assets/Video_6.mp4";
+import LP4 from "../assets/newVid1.mp4";
+import LP5 from "../assets/newVid2.mp4";
+import LP6 from "../assets/newVid3.mp4";
 import timaya from "../assets/timaya.webp";
 import majeed from "../assets/majeed.webp";
 import mohbad from "../assets/Mohbad.jpg";
@@ -405,33 +405,6 @@ export function LandingPage() {
             loop
             className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
-            <source src={LP2} type="video/mp4" />
-          </video>
-          <video
-            autoPlay
-            muted
-            playsInline
-            loop
-            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
-          >
-            <source src={LP1} type="video/mp4" />
-          </video>
-          <video
-            autoPlay
-            muted
-            playsInline
-            loop
-            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
-          >
-            <source src={LP3} type="video/mp4" />
-          </video>
-          <video
-            autoPlay
-            muted
-            playsInline
-            loop
-            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
-          >
             <source src={LP4} type="video/mp4" />
           </video>
           <video
@@ -451,6 +424,34 @@ export function LandingPage() {
             className="w-[85vw] lg:w-[45vw] lg:h-[500px] top-0 "
           >
             <source src={LP6} type="video/mp4" className="w-[500px]" />
+          </video>
+
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP2} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP1} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP3} type="video/mp4" />
           </video>
         </div>
         <Link to="/LatestProjects">
