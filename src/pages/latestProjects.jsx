@@ -19,6 +19,11 @@ import LP18 from "../assets/Video3.mp4";
 import LP19 from "../assets/newVid1.mp4";
 import LP20 from "../assets/newVid2.mp4";
 import LP21 from "../assets/newVid3.mp4";
+import LP22 from "../assets/novVid1.mp4";
+import LP24 from "../assets/novVid3.mp4";
+import LP25 from "../assets/novVid4.mp4";
+import LP26 from "../assets/novVid5.mp4";
+import LP27 from "../assets/novVid6.mp4";
 import { Footer } from "../components/footer";
 
 function LatestProjects() {
@@ -32,6 +37,52 @@ function LatestProjects() {
           All LATEST<p className="text-[#ffd200]">PROJECTS</p>
         </h2>
         <div className="flex flex-col justify-center items-center gap-y-3 lg:flex-row lg:flex-wrap ">
+        <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP22} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] top-0 "
+          >
+            <source src={LP24} type="video/mp4" className="w-[500px]" />
+          </video>
+
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP25} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP26} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP27} type="video/mp4" />
+          </video>
           <video
             autoPlay
             muted
