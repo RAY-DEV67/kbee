@@ -6,9 +6,9 @@ import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
 import nmfv from "../assets/novVid2.mp4";
 import LP1 from "../assets/novVid1.mp4";
-import LP2 from "../assets/newVid3.mp4";
-import LP3 from "../assets/novVid3.mp4";
-import LP4 from "../assets/novVid6.mp4";
+import LP2 from "../assets/novVid7.mp4";
+import LP3 from "../assets/novVid8.mp4";
+import LP4 from "../assets/novVid9.mp4";
 import LP5 from "../assets/novVid5.mp4";
 import LP6 from "../assets/novVid6.mp4";
 import timaya from "../assets/timaya.webp";
@@ -253,7 +253,7 @@ export function LandingPage() {
                 KBEE Promoworld through its hard work and immeasurable efforts
                 aided the promotion of Timaya's COLD OUTSIDE, ,TJAN's ADUKE,
                 Ycee's JUICE, Chike's EGO OYIBO, Diamond Platinumz's MY BABY,
-                Majeed's GBESE, Peruzzi's HYPERTENSION, Wendy Shays's HEAVEN,
+                Majeeed's GBESE, Peruzzi's HYPERTENSION, Wendy Shays's HEAVEN,
                 Efya's SUPER SUPER, Bella Shmurda's DND, Mohbad's ASK ABOUT ME &
                 PARIWO to name a few.
               </p>

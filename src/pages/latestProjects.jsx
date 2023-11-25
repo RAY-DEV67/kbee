@@ -24,6 +24,9 @@ import LP24 from "../assets/novVid3.mp4";
 import LP25 from "../assets/novVid4.mp4";
 import LP26 from "../assets/novVid5.mp4";
 import LP27 from "../assets/novVid6.mp4";
+import LP28 from "../assets/novVid7.mp4";
+import LP29 from "../assets/novVid8.mp4";
+import LP30 from "../assets/novVid9.mp4";
 import { Footer } from "../components/footer";
 
 function LatestProjects() {
@@ -51,9 +54,27 @@ function LatestProjects() {
             muted
             playsInline
             loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP25} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
+            className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
+          >
+            <source src={LP28} type="video/mp4" />
+          </video>
+          <video
+            autoPlay
+            muted
+            playsInline
+            loop
             className="w-[85vw] lg:w-[45vw] lg:h-[500px] top-0 "
           >
-            <source src={LP24} type="video/mp4" className="w-[500px]" />
+            <source src={LP29} type="video/mp4" className="w-[500px]" />
           </video>
 
           <video
@@ -63,8 +84,9 @@ function LatestProjects() {
             loop
             className="w-[85vw] lg:w-[45vw] lg:h-[500px] bg-[white] top-0 "
           >
-            <source src={LP25} type="video/mp4" />
+            <source src={LP30} type="video/mp4" />
           </video>
+
           <video
             autoPlay
             muted
