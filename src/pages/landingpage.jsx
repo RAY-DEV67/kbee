@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
+import dec from "../assets/dec.png";
 import mayorkun from "../assets/mayorkun.jpg";
 import ayojay from "../assets/ayojay.jpg";
 import bella from "../assets/bella.jpg";
 import ycee from "../assets/Ycee.jpg";
-import nmfv from "../assets/novVid2.mp4";
+import nmfv from "../assets/nmfDec1.mp4";
 import LP1 from "../assets/novVid1.mp4";
 import LP2 from "../assets/novVid7.mp4";
-import LP3 from "../assets/novVid8.mp4";
-import LP4 from "../assets/novVid9.mp4";
-import LP5 from "../assets/novVid5.mp4";
+import LP3 from "../assets/lpDec1.mp4";
+import LP4 from "../assets/lpDec2.mp4";
+import LP5 from "../assets/lpDec3.mp4";
 import LP6 from "../assets/novVid6.mp4";
 import timaya from "../assets/timaya.webp";
 import majeed from "../assets/majeed.webp";
@@ -64,7 +65,8 @@ export function LandingPage() {
   return (
     <div className="bg-[#ffffff] text-[#000009]">
       <div className="relative">
-        <video
+        <img src={dec} alt="Ayojay" className="lg:hidden" />
+        {/* <video
           autoPlay
           muted
           playsInline
@@ -75,16 +77,16 @@ export function LandingPage() {
             src="https://res.cloudinary.com/dvl38skbc/video/upload/v1698156673/kbee/Video_1_i9ytx8.mp4"
             type="video/mp4"
           />
-        </video>
+        </video> */}
         <div className="bg-black bg-opacity-60 h-[100%] w-[100vw] absolute z-40 top-0 flex-col pb-[5vh] px-[16px] justify-end flex">
-          <h1 className="text-[4vw] relative z-50 text-white flex flex-row gap-x-3 items-center">
+          {/* <h1 className="text-[4vw] relative z-50 text-white flex flex-row gap-x-3 items-center">
             WELCOME TO{" "}
             <span className="text-[#ffd200] text-[7vw] mt-[-2h] font-semibold">
               {" "}
               KBEE{" "}
             </span>{" "}
             PROMOTIONS
-          </h1>
+          </h1> */}
           {/* <Link to="/contact">
             <button className="bg-[#ffd200] w-[45vw] py-[8px] rounded-[20px] text-[2.5vh] mt-[16px] font-semibold">
               Contact Us
